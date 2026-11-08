@@ -1,57 +1,95 @@
-# LMU Setup Manager 1.0.0
+# LMU Setup Manager
 
-[Deutsch](README.de.md) · [MIT license](LICENSE) · [Install](docs/INSTALLATION.md) · [Build](docs/BUILDING.md)
+**Your car setups. Automatically matched. Always within reach.**
 
-**Free and open source under MIT.** An independent, unofficial LMU community
-project, not affiliated with or endorsed by Studio 397, Motorsport Games or the
-game's rights holders. [Repository](https://github.com/Suedehead84/LMU-Setup-Manager) · [Version 1.0.0](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0).
+LMU Setup Manager is a free, open-source companion for **Le Mans Ultimate**. Save your car's electronics settings, organise your favourites and find the right setup for your next session.
 
-## What it does
+Whether you're practising, qualifying or racing, the manager recognises your current car and track and shows matching entries from your setup library.
 
-- Recognizes active car, track/layout and session from native/REST evidence.
-- Stores and compares TC, TC Cut, TC Slip, ABS and Front Brake Bias.
-- Local variants/revisions, favorites, trash, live capture and target/actual display.
-- Windows tray/single instance, persistent approved LAN access, iPad QR pairing.
-- SQLite backup/restore, German/English and community translations.
+**[⬇ Download v1.0.0 for Windows (64-bit ZIP)](https://github.com/Suedehead84/LMU-Setup-Manager/releases/download/v1.0.0/LMU-FixedSetupManager-1.0.0-win-x64.zip)**
 
-RC2 functionality is unchanged. Owner confirms real-operation acceptance and three
-online races with reliable automatic setup recognition. No database migration,
-activation, artificial limits, payment or new 1.0 features. PB/theoretical PB,
-fuel log and popup setup notes belong after 1.0, as [roadmap](ROADMAP.md) only.
+[Release details and checksums](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0) · [Deutsch](README.de.md) · [MIT license](LICENSE)
 
-## Windows download and first start
+## Features
 
-Download the Windows ZIP and SHA256SUMS.txt from [Releases](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0).
-The immutable vetted ZIP contains historical preparation notices; the release
-notes explain the publication decision. Extract **all files** into a new folder, quit the old app through its tray,
-and start **LMU Setup Manager.exe**. Runtime included; no SDK needed for users.
-Sidebar shows 1.0.0, no RC banner. Existing schema-4 data/settings/grants persist.
-Make a consistent backup before updating. [Installation](docs/INSTALLATION.md).
+### 🏎️ Automatic car and track recognition
 
-## iPad and home network
+See saved setups that match the car, track and layout you're currently driving. Live recognition requires Le Mans Ultimate to be running on the same PC and providing supported game data.
 
-Enable the explicitly trusted home connection, then use a one-time QR invitation.
-**LAN HTTP is unencrypted.** Use only trusted devices/networks; no Internet exposure,
-automatic firewall changes or profile weakening. [Security](docs/SECURITY.md).
+### ⚙️ Keep your electronics settings in view
+
+Save and compare:
+
+- Traction Control (TC)
+- TC Cut
+- TC Slip
+- ABS
+- Front Brake Bias
+
+Capture available live values and compare them with your saved settings at a glance. The manager helps you keep track of these values; it does not apply setup changes to the game.
+
+### 📚 Your personal setup library
+
+Keep different versions, add personal notes, mark favourites and organise your setups by car and track. A trash view helps you recover removed entries.
+
+### 📱 Use it beside your rig
+
+Open the manager on your iPad or another device on your home network. Enable home-network access in the Windows app, approve your trusted network and pair your device using a one-time QR invitation.
+
+### 💾 Local, free and without an account
+
+Your library stays on your computer.
+
+- No registration or subscription
+- No paid features
+- Library backup and restore
+- German and English interface
+
+You can also browse and manage your library without running the game.
 
 ## Screenshots
 
-Screenshots are pending a privacy/rights review. No unapproved screenshot or fake
-preview is shipped. [Screenshot review](docs/SCREENSHOTS.md).
+*Screenshots of the setup library, live settings and iPad view will be added here.*
 
-## Community and license
+## Installation
 
-Read [CONTRIBUTING](CONTRIBUTING.md), use bug/feature templates and submit focused
-pull requests in the public repository. Never attach raw personal logs,
-databases, grants or QR secrets. Own contributions are offered under MIT with
-sufficient rights; no exclusive copyright transfer. Third-party components retain
-[their licenses and notices](THIRD_PARTY_NOTICES.md). No proprietary EULA restricts
-this project's MIT-covered code. Copyright 2026 Suedehead84.
+1. Download the [v1.0.0 Windows ZIP](https://github.com/Suedehead84/LMU-Setup-Manager/releases/download/v1.0.0/LMU-FixedSetupManager-1.0.0-win-x64.zip).
+2. Extract **all files** into a folder of your choice.
+3. Start **LMU Setup Manager.exe** and open the interface from its icon in the Windows notification area.
+4. Start Le Mans Ultimate to use live recognition and settings capture.
 
-## Voluntary support
+The ZIP includes the required runtime; no separate runtime or SDK installation is needed. Before updating, back up your library in the app and quit the previous version through its notification-area icon.
 
-LMU Setup Manager is free and open source. If you enjoy the project, you can support
-its development voluntarily. Funding accounts are not verified yet, so no donation
-link or sponsor button is active. [Later activation](docs/FUNDING.md).
+**Please note:** The app is currently unsigned, so Windows may show a security warning on first launch.
 
-Publication provenance and limitations: [review](docs/PUBLICATION_REVIEW.md).
+More details: [Installation guide](docs/INSTALLATION.md).
+
+## iPad and home-network safety
+
+Home-network access is optional and off by default. **The connection uses unencrypted HTTP.** Use it only with trusted devices on your trusted home network. Do not expose the manager to the Internet or set up router port forwarding. Keep pairing QR codes and invitation links private.
+
+The app does not change your firewall or Windows network profile automatically. See the [security and privacy guide](docs/SECURITY.md) for connection guidance and details.
+
+## Help shape the project
+
+Found a bug, have an idea or want to contribute? We'd love to hear from you.
+
+- [Report a bug or suggest a feature](https://github.com/Suedehead84/LMU-Setup-Manager/issues)
+- [Contribution guide](CONTRIBUTING.md)
+- [Plans for future versions](ROADMAP.md)
+
+Please leave personal data and pairing secrets out of public reports. Report security concerns privately through [GitHub's vulnerability reporting](https://github.com/Suedehead84/LMU-Setup-Manager/security/advisories/new).
+
+## Support the project ☕
+
+LMU Setup Manager is and will remain free. If you enjoy it, you'll be able to support its development voluntarily in the future.
+
+*A support link will be added when it is available.*
+
+---
+
+LMU Setup Manager is an independent, unofficial community project. It is not affiliated with or endorsed by Studio 397, Motorsport Games or the rights holders of Le Mans Ultimate.
+
+Released under the [MIT license](LICENSE). Third-party components retain [their own licenses and notices](THIRD_PARTY_NOTICES.md).
+
+[Security information](docs/SECURITY.md) · © 2026 Suedehead84

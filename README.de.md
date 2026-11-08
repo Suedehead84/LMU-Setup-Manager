@@ -1,59 +1,95 @@
-# LMU Setup Manager 1.0.0
+# LMU Setup Manager
 
-[English](README.md) · [MIT-Lizenz](LICENSE) · [Installation](docs/INSTALLATION.de.md) · [Build](docs/BUILDING.md)
+**Deine Fahrzeug-Setups. Automatisch zugeordnet. Immer griffbereit.**
 
-**Kostenlos und Open Source unter MIT.** Unabhängiges, inoffizielles LMU-Community-
-Projekt; keine Zugehörigkeit oder Empfehlung durch Studio 397, Motorsport Games
-oder die Rechteinhaber des Spiels. [Repository](https://github.com/Suedehead84/LMU-Setup-Manager) · [Version 1.0.0](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0).
+LMU Setup Manager ist ein kostenloses Open-Source-Tool für **Le Mans Ultimate**. Speichere die Elektronikeinstellungen deiner Fahrzeuge, verwalte deine Favoriten und finde das passende Setup für deine nächste Session.
+
+Ob Training, Qualifying oder Rennen: Der Manager erkennt dein aktuelles Fahrzeug und die Strecke und zeigt passende Einträge aus deiner Setup-Bibliothek an.
+
+**[⬇ v1.0.0 für Windows herunterladen (64-Bit-ZIP)](https://github.com/Suedehead84/LMU-Setup-Manager/releases/download/v1.0.0/LMU-FixedSetupManager-1.0.0-win-x64.zip)**
+
+[Release-Details und Prüfsummen](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0) · [English](README.md) · [MIT-Lizenz](LICENSE)
 
 ## Funktionen
 
-- Aktives Fahrzeug, Strecke/Layout und Session aus nativen/REST-Nachweisen erkennen.
-- TC, TC Cut, TC Slip, ABS und Front Brake Bias speichern und vergleichen.
-- Lokale Varianten/Revisionen, Favoriten, Papierkorb, Live-Speichern und Soll-Ist.
-- Windows-Tray/Einzelinstanz, gespeicherte Heimnetzfreigabe, iPad-QR-Pairing.
-- SQLite-Backup/Restore, Deutsch/Englisch und Community-Übersetzungen.
+### 🏎️ Automatische Fahrzeug- und Streckenerkennung
 
-RC2 bleibt funktional unverändert. Benutzer bestätigt die reale technische Abnahme
-und drei Online-Rennen mit zuverlässiger automatischer Setup-Erkennung. Keine
-Migration, Aktivierung, künstlichen Limits, Zahlung oder neuen 1.0-Funktionen.
-PB/theoretische PB, Spritprotokoll und Popup-Setupnotizen gehören auf die spätere
-[Roadmap](ROADMAP.md), nicht in 1.0.
+Sieh gespeicherte Setups passend zu deinem aktuellen Fahrzeug, deiner Strecke und dem Streckenlayout. Für die Live-Erkennung muss Le Mans Ultimate auf demselben PC laufen und unterstützte Spieldaten bereitstellen.
 
-## Download und erster Start
+### ⚙️ Elektronikeinstellungen im Blick behalten
 
-Windows-ZIP und SHA256SUMS.txt stehen unter [Releases](https://github.com/Suedehead84/LMU-Setup-Manager/releases/tag/v1.0.0).
-Das unveränderte geprüfte ZIP enthält historische Vorbereitungshinweise; die
-Release-Notizen erläutern die Veröffentlichungsentscheidung. **Alle Dateien** neu
-entpacken, alte App über das Tray beenden, **LMU Setup Manager.exe** starten.
-Laufzeit enthalten, kein SDK nötig. Sidebar 1.0.0 ohne RC-Balken. Schema-4-Daten,
-Einstellungen und Geräte bleiben erhalten. Vor Update konsistentes Backup erstellen.
-[Installation](docs/INSTALLATION.de.md).
+Speichere und vergleiche:
 
-## Heimnetz und iPad
+- Traction Control (TC)
+- TC Cut
+- TC Slip
+- ABS
+- Front Brake Bias (Bremsbalance vorne)
 
-Vertrauenswürdige Verbindung ausdrücklich freigeben und einmalige QR-Einladung
-verwenden. **HTTP im LAN ist unverschlüsselt.** Nur eigenes vertrauenswürdiges Netz,
-keine Internetfreigabe, automatischen Firewalländerungen oder Profilabschwächung.
-[Sicherheit](docs/SECURITY.de.md).
+Übernimm verfügbare Live-Werte und vergleiche sie auf einen Blick mit deinen gespeicherten Einstellungen. Der Manager hilft dir, diese Werte im Blick zu behalten; er überträgt keine Setup-Änderungen ins Spiel.
+
+### 📚 Deine persönliche Setup-Bibliothek
+
+Verwalte verschiedene Versionen, ergänze persönliche Notizen, markiere Favoriten und ordne deine Setups nach Fahrzeug und Strecke. Über den Papierkorb kannst du entfernte Einträge wiederfinden.
+
+### 📱 Direkt neben deinem Rig nutzbar
+
+Öffne den Manager auf deinem iPad oder einem anderen Gerät im Heimnetz. Aktiviere dafür den Heimnetzzugriff in der Windows-App, gib dein vertrauenswürdiges Netzwerk frei und verbinde dein Gerät über eine einmalige QR-Einladung.
+
+### 💾 Lokal, kostenlos und ohne Benutzerkonto
+
+Deine Bibliothek bleibt auf deinem Computer.
+
+- Keine Registrierung und kein Abonnement
+- Keine kostenpflichtigen Funktionen
+- Backup und Wiederherstellung deiner Bibliothek
+- Deutsche und englische Benutzeroberfläche
+
+Du kannst deine Bibliothek auch ohne laufendes Spiel durchsehen und verwalten.
 
 ## Screenshots
 
-Erst nach Datenschutz-/Rechteprüfung. Keine ungeprüften Bilder oder erfundenen
-Vorschauen enthalten. [Prüfplan](docs/SCREENSHOTS.md).
+*Hier folgen Screenshots der Setup-Bibliothek, der Live-Einstellungen und der iPad-Ansicht.*
 
-## Mitwirkung und Lizenz
+## Installation
 
-[CONTRIBUTING](CONTRIBUTING.md), Fehler-/Wunschvorlagen und PR-Vorlage sind vorbereitet.
-Keine Rohlogs, privaten Setups, Datenbanken oder Berechtigungen veröffentlichen.
-Beiträge mit ausreichenden Rechten unter MIT, ohne exklusive Rechteübertragung.
-[Drittanbieter](THIRD_PARTY_NOTICES.md) behalten ihre eigenen Lizenzen. Keine
-proprietäre EULA für denselben MIT-Anwendungscode. Copyright 2026 Suedehead84.
+1. Lade das [Windows-ZIP der v1.0.0](https://github.com/Suedehead84/LMU-Setup-Manager/releases/download/v1.0.0/LMU-FixedSetupManager-1.0.0-win-x64.zip) herunter.
+2. Entpacke **alle Dateien** in einen Ordner deiner Wahl.
+3. Starte **LMU Setup Manager.exe** und öffne die Oberfläche über das Symbol im Windows-Infobereich.
+4. Starte Le Mans Ultimate, um die Live-Erkennung und das Übernehmen von Einstellungen zu nutzen.
 
-## Freiwillige Unterstützung
+Die benötigte Laufzeit ist im ZIP enthalten; eine separate Laufzeit- oder SDK-Installation ist nicht nötig. Erstelle vor einem Update ein Backup deiner Bibliothek in der App und beende die bisherige Version über ihr Symbol im Infobereich.
 
-Freiwillige Unterstützung ist später möglich, ohne Spendenpflicht oder Funktionseinschränkung.
-Konten noch nicht bestätigt; keine aktiven Links oder Sponsor-Schaltfläche.
-[Spätere Aktivierung](docs/FUNDING.md).
+**Hinweis:** Die Anwendung ist derzeit nicht digital signiert. Windows kann deshalb beim ersten Start eine Sicherheitswarnung anzeigen.
 
-Veröffentlichungsnachweise und Grenzen: [Prüfung](docs/PUBLICATION_REVIEW.md).
+Mehr dazu: [Installationsanleitung](docs/INSTALLATION.de.md).
+
+## iPad und Sicherheit im Heimnetz
+
+Der Heimnetzzugriff ist freiwillig und zunächst ausgeschaltet. **Die Verbindung nutzt unverschlüsseltes HTTP.** Verwende sie ausschließlich mit vertrauenswürdigen Geräten in deinem vertrauenswürdigen Heimnetz. Gib den Manager nicht im Internet frei und richte keine Portweiterleitung am Router ein. Halte QR-Codes und Einladungslinks zum Verbinden deiner Geräte privat.
+
+Die App ändert weder deine Firewall noch dein Windows-Netzwerkprofil automatisch. Hinweise zur Verbindung und weitere Details findest du unter [Sicherheit und Datenschutz](docs/SECURITY.de.md).
+
+## Gemeinsam weiterentwickeln
+
+Du hast einen Fehler entdeckt, eine Idee oder möchtest etwas beitragen? Wir freuen uns über deine Rückmeldung.
+
+- [Fehler melden oder eine Funktion vorschlagen](https://github.com/Suedehead84/LMU-Setup-Manager/issues)
+- [Beitragsleitfaden](CONTRIBUTING.md)
+- [Pläne für kommende Versionen](ROADMAP.md)
+
+Bitte veröffentliche keine persönlichen Daten oder geheimen Einladungsdaten in öffentlichen Meldungen. Melde Sicherheitsprobleme vertraulich über die [Sicherheitsmeldungen auf GitHub](https://github.com/Suedehead84/LMU-Setup-Manager/security/advisories/new).
+
+## Unterstütze das Projekt ☕
+
+LMU Setup Manager ist und bleibt kostenlos. Wenn dir das Projekt gefällt, kannst du seine Weiterentwicklung künftig freiwillig unterstützen.
+
+*Ein Unterstützungslink wird ergänzt, sobald er verfügbar ist.*
+
+---
+
+LMU Setup Manager ist ein unabhängiges, inoffizielles Community-Projekt. Es steht in keiner Verbindung zu Studio 397, Motorsport Games oder den Rechteinhabern von Le Mans Ultimate und wird von ihnen nicht empfohlen.
+
+Veröffentlicht unter der [MIT-Lizenz](LICENSE). Drittanbieter-Komponenten behalten [ihre eigenen Lizenzen und Hinweise](THIRD_PARTY_NOTICES.md).
+
+[Sicherheitsinformationen](docs/SECURITY.de.md) · © 2026 Suedehead84
