@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors></PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="CanonicalMessages.json" /><EmbeddedResource Include="../Lmu.Web/wwwroot/locales/de.json" Link="Locales/de.json" /><EmbeddedResource Include="../Lmu.Web/wwwroot/locales/en.json" Link="Locales/en.json" /><EmbeddedResource Include="../Lmu.Web/wwwroot/locale-policy.json" Link="Locales/locale-policy.json" /></ItemGroup>
+</Project>

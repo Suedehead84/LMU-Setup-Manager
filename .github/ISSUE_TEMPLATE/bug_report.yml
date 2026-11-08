@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: Never attach raw logs, databases, personal setups, grants, active QR codes or private addresses. Share only sanitized details.
+  - type: input
+    id: version
+    attributes:
+      label: Application version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Windows, browser and relevant LMU version

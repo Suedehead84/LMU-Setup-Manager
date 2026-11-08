@@ -1,0 +1,18 @@
+{
+  "evidence": "INDEPENDENT SYNTHETIC example, not game output",
+  "car": {
+    "id": "SYNTHETIC_ASTER_01",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ASTER_GT3/1.0/SYNTHETIC_ASTER_01.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Aster GT3",
+    "desc": "Synthetic Team One A",
+    "team": "One"
+  },
+  "track": {
+    "id": "SYNTHETIC_ALPHA_GP",
+    "cmpName": "SYNTHETIC_ALPHA",
+    "sceneDesc": "SYNTHETIC_ALPHA_GP",
+    "trackName": "Synthetic Alpha",
+    "properTrackName": "SYNTHETIC Circuit Alpha",
+    "eventName": "Synthetic event"
+  }
+}

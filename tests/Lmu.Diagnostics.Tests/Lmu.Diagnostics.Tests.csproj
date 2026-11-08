@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors></PropertyGroup><ItemGroup><ProjectReference Include="../../src/Lmu.Diagnostics/Lmu.Diagnostics.csproj" /></ItemGroup><ItemGroup><None Include="../../docs/abi/14200-layout.tsv" Link="abi-14200.tsv" CopyToOutputDirectory="PreserveNewest" /></ItemGroup><ItemGroup><None Include="Fixtures/*.json" CopyToOutputDirectory="PreserveNewest" /></ItemGroup><ItemGroup><ProjectReference Include="../../tools/Lmu.Replay/Lmu.Replay.csproj" /><None Include="Fixtures/*.gz" CopyToOutputDirectory="PreserveNewest" /></ItemGroup></Project>
+
+
+

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SYNTHETIC_ALPHA_GP",
+    "cmpName": "SYNTHETIC_ALPHA",
+    "sceneDesc": "SYNTHETIC_ALPHA_GP",
+    "trackName": "Synthetic Alpha",
+    "properTrackName": "SYNTHETIC Circuit Alpha",
+    "eventName": "Synthetic event"
+  },
+  {
+    "id": "SYNTHETIC_ALPHA_ALT",
+    "cmpName": "SYNTHETIC_ALPHA",
+    "sceneDesc": "SYNTHETIC_ALPHA_ALT",
+    "trackName": "Synthetic Alpha",
+    "properTrackName": "SYNTHETIC Circuit Alpha Alternate",
+    "eventName": "Synthetic event"
+  },
+  {
+    "id": "SYNTHETIC_BETA_SHORT",
+    "cmpName": "SYNTHETIC_BETA",
+    "sceneDesc": "SYNTHETIC_BETA_SHORT",
+    "trackName": "Synthetic Beta",
+    "properTrackName": "SYNTHETIC Circuit Beta",
+    "eventName": "Synthetic event"
+  },
+  {
+    "id": "SYNTHETIC_GAMMA_A",
+    "cmpName": "SYNTHETIC_GAMMA",
+    "sceneDesc": "SYNTHETIC_GAMMA_A",
+    "trackName": "Synthetic Gamma",
+    "properTrackName": "SYNTHETIC Circuit Gamma",
+    "eventName": "Synthetic event"
+  },
+  {
+    "id": "SYNTHETIC_GAMMA_B",
+    "cmpName": "SYNTHETIC_GAMMA",
+    "sceneDesc": "SYNTHETIC_GAMMA_B",
+    "trackName": "Synthetic Gamma",
+    "properTrackName": "SYNTHETIC Circuit Gamma",
+    "eventName": "Synthetic event"
+  }
+]

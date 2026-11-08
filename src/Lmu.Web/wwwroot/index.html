@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1119">
+  <title>LMU Setup Manager</title>
+  <link rel="stylesheet" href="/app.css"><script src="/i18n.js" defer></script><script src="/ui-helpers.js" defer></script><script src="/vendor/qrcode-2.0.4.js" defer></script><script src="/invitation.js" defer></script><script src="/settings.js" defer></script><script src="/language-ui.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main"><span data-i18n="shell.skipToContent"></span></a>
+  <div id="pairing" class="pairing" hidden>
+    <form id="pair-form" class="panel pair-panel">
+      <p class="eyebrow"><span data-i18n="shell.lmuSetupManager_77ee5"></span></p><h1><span data-i18n="shell.yourLibrary"></span><br><span data-i18n="shell.onYourDevice"></span></h1>
+      <p><span data-i18n="shell.openTheInvitationLinkFromTheTrayApplication"></span></p>
+      <label for="access-key"><span data-i18n="shell.accessCode"></span></label><input id="access-key" name="key" required autocomplete="off" spellcheck="false">
+      <button class="primary" type="submit"><span data-i18n="shell.connectLibrary"></span></button><p id="pair-error" role="alert"></p>
+      <div id="pair-language-controls"></div><small><span data-i18n="shell.localAccessNoCloudNoAccount"></span></small>
+    </form>
+  </div>
+  <div id="shell" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="#dashboard"><span class="brand-mark"><span data-i18n="shell.lmu"></span><span> / </span></span><span><span data-i18n="shell.setup"></span><br><b><span data-i18n="shell.manager"></span></b></span></a>
+      <div class="sidebar-caption"><span data-i18n="shell.yourWorkspace"></span></div>
+      <nav aria-label="" data-i18n-aria-label="shell.mainNavigation">
+        <a href="#dashboard" data-nav="dashboard"><span aria-hidden="true">◫</span> <span data-i18n="shell.dashboard"></span></a>
+        <a href="#live-setup" data-nav="live-setup"><span aria-hidden="true">◎</span> <span data-i18n="shell.liveSetup"></span></a>
+        <a href="#library" data-nav="library"><span aria-hidden="true">▤</span> <span data-i18n="shell.library"></span></a>
+        <a href="#trash" data-nav="trash"><span aria-hidden="true">↶</span> <span data-i18n="shell.trash"></span></a>
+        <a href="#catalog" data-nav="catalog"><span aria-hidden="true">⌘</span> <span data-i18n="shell.vehiclesTracks"></span></a>
+        <a href="#settings" data-nav="settings"><span aria-hidden="true">⚙</span> <span data-i18n="shell.settings"></span></a>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span> <span data-i18n="shell.storedLocally"></span><br><small>1.0.0</small></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div><span class="connection"><span class="status-dot"></span> <span data-i18n="shell.localLibrary"></span></span><small><span data-i18n="shell.yourSetupsYourVariants"></span></small></div><a class="button primary" href="#new"><span data-i18n="shell.newSetup"></span></a></header>
+      <div id="notice" class="notice" role="status" hidden><span id="notice-message"></span><button id="notice-close" type="button" class="icon-button quiet" aria-label="" data-i18n-aria-label="shell.dismissNotification">×</button></div>
+      <main id="main" tabindex="-1" aria-live="polite"></main>
+      <aside id="setup-signal" class="setup-signal" aria-live="polite" aria-label="" data-i18n-aria-label="shell.detectedLibrarySetup" hidden></aside>
+      <footer><span data-i18n="shell.lmuSetupManager"></span> <span>·</span> <span data-i18n="shell.localStorageOnly"></span> <span>·</span> <span data-i18n="shell.noWriteAccessToLmu"></span></footer>
+    </div>
+  </div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,42 @@
+name: Private Windows validation
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check documentation links
+        run: node scripts/check-docs.cjs
+      - name: Validate translation files and shared safety policy
+        run: node scripts/check-translations.cjs
+      - name: Build, all regression suites, audit and isolated versioned package
+        shell: powershell
+        run: ./scripts/build.ps1 -Clean -Publish
+      - name: Published B1 regression
+        shell: powershell
+        run: ./scripts/test-b1.ps1
+      - name: Published web regression
+        shell: powershell
+        run: ./scripts/test-web.ps1
+      - name: Published tray process regression
+        shell: powershell
+        run: ./scripts/test-manager.ps1
+      - name: Verify ZIP, manifest and isolated extracted application
+        shell: powershell
+        run: ./scripts/test-release.ps1
+      # No upload, push or GitHub Release creation. Enable uploads only after explicit owner approval.

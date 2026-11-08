@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest an improvement
+labels: enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested behavior and alternatives
+  - type: markdown
+    attributes:
+      value: PB, theoretical PB, fuel log and popup setup notes are roadmap items after 1.0.0, not current features.

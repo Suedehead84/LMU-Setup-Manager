@@ -1,0 +1,7 @@
+[
+  {"Action":"catalog.vehicle","Data":{"Id":"BMW_M4_LMGT3_2023","Name":"BMW M4 LMGT3","Class":"GT3"}},
+  {"Action":"catalog.track","Data":{"Id":"Monza_2023","Name":"Autodromo Nazionale Monza"}},
+  {"Action":"catalog.layout","Data":{"TrackId":"Monza_2023","Id":"MONZAWEC","Name":"Autodromo Nazionale Monza"}},
+  {"Action":"setup.create","Data":{"Key":{"VehicleId":"BMW_M4_LMGT3_2023","TrackId":"Monza_2023","LayoutId":"MONZAWEC"},"Draft":{"Name":"Safe Quali","Values":{"TC":7,"TCCut":7,"TCSlip":7,"ABS":6,"BrakeBiasFrontPercent":51.25},"Notes":"Manueller lokaler Funktionstest. Keine erfasste Runde.","Favorite":false,"PreferredUse":"Qualifying","Mode":"FixedLab"}}},
+  {"Action":"setup.search","Data":{"VehicleId":"BMW_M4_LMGT3_2023","TrackId":"Monza_2023","LayoutId":"MONZAWEC"}}
+]

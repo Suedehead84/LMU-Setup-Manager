@@ -1,0 +1,27 @@
+{
+  "evidence": "Independently synthetic frozen and ended contexts",
+  "snapshots": [
+    {
+      "label": "ESC-frozen-start",
+      "et": 200,
+      "seconds": 0,
+      "players": [
+        {
+          "file": "SYNTHETIC_ASTER_01"
+        }
+      ]
+    },
+    {
+      "label": "ESC-frozen-late",
+      "et": 200,
+      "seconds": 80
+    },
+    {
+      "label": "ended-with-old-scoring",
+      "count": 3,
+      "events": [
+        5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "SYNTHETIC_ASTER_01",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ASTER_GT3/1.0/SYNTHETIC_ASTER_01.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Aster GT3",
+    "desc": "Synthetic Team One A",
+    "team": "One"
+  },
+  {
+    "id": "SYNTHETIC_ASTER_02",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ASTER_GT3/1.0/SYNTHETIC_ASTER_02.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Aster GT3",
+    "desc": "Synthetic Team One B",
+    "team": "One"
+  },
+  {
+    "id": "SYNTHETIC_ASTER_03",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ASTER_GT3/1.0/SYNTHETIC_ASTER_03.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Aster GT3",
+    "desc": "Synthetic Team Two",
+    "team": "Two"
+  },
+  {
+    "id": "SYNTHETIC_BOREAL_01",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_BOREAL_A/1.0/SYNTHETIC_BOREAL_01.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Boreal GT3",
+    "desc": "Boreal A",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_BOREAL_B0",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_BOREAL_B/1.0/SYNTHETIC_BOREAL_B0.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Boreal GT3",
+    "desc": "Boreal B",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_BOREAL_B1",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_BOREAL_B/1.0/SYNTHETIC_BOREAL_B1.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Boreal GT3",
+    "desc": "Boreal B",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_CIRRUS_A",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_CIRRUS_A/1.0/SYNTHETIC_CIRRUS_A.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Cirrus",
+    "desc": "Cirrus",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_CIRRUS_B",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_CIRRUS_B/1.0/SYNTHETIC_CIRRUS_B.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Cirrus",
+    "desc": "Cirrus",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_DAWN_A",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_DAWN/1.0/SYNTHETIC_DAWN_A.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Dawn",
+    "desc": "Dawn",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_DAWN_B",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_DAWN/1.0/SYNTHETIC_DAWN_B.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Dawn Evo",
+    "desc": "Dawn Evo",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_ELM_A",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ELM_A/1.0/SYNTHETIC_ELM_A.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Elm",
+    "desc": "Elm",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_ELM_B",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_ELM_B/1.0/SYNTHETIC_ELM_B.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Elm",
+    "desc": "Elm",
+    "team": "Synthetic Team"
+  },
+  {
+    "id": "SYNTHETIC_FERN",
+    "vehFile": "C:/SYNTHETIC/Installed/Vehicles/SYNTHETIC_FERN/1.0/SYNTHETIC_FERN.VEH",
+    "fullPathTree": "Synthetic Content, GT3, SYNTHETIC Fern",
+    "desc": "Fern",
+    "team": "Synthetic Team"
+  }
+]

@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/src/"><Project Path="src/Lmu.Localization/Lmu.Localization.csproj" />
+    <Project Path="src/Lmu.Diagnostics/Lmu.Diagnostics.csproj" />
+    <Project Path="src/Lmu.SetupLibrary/Lmu.SetupLibrary.csproj" />
+    <Project Path="src/Lmu.LiveCapture/Lmu.LiveCapture.csproj" />
+    <Project Path="src/Lmu.Web/Lmu.Web.csproj" />
+    <Project Path="src/Lmu.Manager/Lmu.Manager.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Lmu.Diagnostics.Tests/Lmu.Diagnostics.Tests.csproj" />
+    <Project Path="tests/Lmu.SetupLibrary.Tests/Lmu.SetupLibrary.Tests.csproj" />
+    <Project Path="tests/Lmu.Web.Tests/Lmu.Web.Tests.csproj" />
+    <Project Path="tests/Lmu.LiveCapture.Tests/Lmu.LiveCapture.Tests.csproj" />
+    <Project Path="tests/Lmu.B23.Tests/Lmu.B23.Tests.csproj" />
+    <Project Path="tests/Lmu.B24.Tests/Lmu.B24.Tests.csproj" />
+    <Project Path="tests/Lmu.B25.Tests/Lmu.B25.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/Lmu.Replay/Lmu.Replay.csproj" />
+    <Project Path="tools/Lmu.Library.Tool/Lmu.Library.Tool.csproj" />
+  </Folder>
+</Solution>

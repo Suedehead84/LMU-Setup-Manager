@@ -1,0 +1,9 @@
+{
+  "evidence": "Independently synthetic",
+  "fields": {
+    "RawTrackName": "SYNTHETIC Circuit Alpha",
+    "PlayerVehicleFile": "SYNTHETIC_ASTER_01",
+    "OptionsLocation": 0,
+    "PlayerControl": 1
+  }
+}
