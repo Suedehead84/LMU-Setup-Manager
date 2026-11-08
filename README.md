@@ -34,7 +34,7 @@ Keep different versions, add personal notes, mark favourites and organise your s
 
 ### 📱 Use it beside your rig
 
-Open the manager on your iPad or another device on your home network. Enable home-network access in the Windows app, approve your trusted network and pair your device using a one-time QR invitation.
+Open the manager on your tablet, smartphone or another device on your home network. Enable home-network access in the Windows app, approve your trusted network and pair your device using a one-time QR invitation.
 
 ### 💾 Local, free and without an account
 
@@ -49,7 +49,7 @@ You can also browse and manage your library without running the game.
 
 ## Screenshots
 
-*Screenshots of the setup library, live settings and iPad view will be added here.*
+*Screenshots of the setup library, live settings and mobile view will be added here.*
 
 ## Installation
 
@@ -64,7 +64,7 @@ The ZIP includes the required runtime; no separate runtime or SDK installation i
 
 More details: [Installation guide](docs/INSTALLATION.md).
 
-## iPad and home-network safety
+## Mobile access and home-network safety
 
 Home-network access is optional and off by default. **The connection uses unencrypted HTTP.** Use it only with trusted devices on your trusted home network. Do not expose the manager to the Internet or set up router port forwarding. Keep pairing QR codes and invitation links private.
 

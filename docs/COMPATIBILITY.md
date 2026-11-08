@@ -1,7 +1,7 @@
 # Windows and browser qualification / Kompatibilitätsmatrix
 
 1.0.0, stable private technical release. The owner confirms RC2 intended functionality in real operation. The owner confirms all seven preview.10 home tests passed.
-This does not certify every Safari/iPadOS or assistive-device version. No unrecorded OS/device versions or measurement duration are inferred from that approval. A runtime
+This does not certify every mobile browser, operating system or assistive-device version. No unrecorded OS/device versions or measurement duration are inferred from that approval. A runtime
 target is not a tested product matrix. Categories:
 **Automatisiert geprüft**, **Manuell geprüft** (historical user confirmation),
 **Technisch erwartet, aber unbestätigt**, **Nicht unterstützt**, **Nicht getestet**.
@@ -12,14 +12,14 @@ target is not a tested product matrix. Categories:
 | Self-contained win-x64 package | Automatisiert geprüft | Four published components, native SQLite, local web/language assets; no separate user SDK/runtime installation intended |
 | Tray lifecycle, single instance, restart and port release | Automatisiert geprüft | 17 Manager process assertions; no proof of every shell/desktop configuration |
 | LMU identity/matching and ESC/session behavior | Manuell geprüft | Earlier user tests, plus replay/synthetic regressions; not a new RC drive or every car/layout |
-| LAN, QR, iPad after narrow Public-profile firewall rule | Manuell geprüft | User confirms prior real access; OS/browser versions and full device matrix not recorded |
+| LAN, QR, tablet access after narrow Public-profile firewall rule | Manuell geprüft | User confirms prior real access; OS/browser versions and full device matrix not recorded |
 | Eight manual language cases, different device languages and tray | Manuell geprüft | User confirms completion; no fabricated per-case timestamps or device versions |
 | Backup download/restore on prior user installation | Manuell geprüft | Earlier user confirmation, plus isolated automated restore regressions |
 | In-app Chromium test browser, desktop/narrow synthetic UI | Automatisiert geprüft | Actual browser UI inspection/screenshots; not a physical phone; preview.10 fixed narrow DE navigation; RC metadata still needs its own check |
 | Clean supported Windows x64 without SDK/prior installation | Nicht getestet | Must extract complete ZIP and verify runtime/native dependencies, browser launch, tray, DPAPI and data permissions |
 | Other supported Windows 11 x64 releases/editions | Technisch erwartet, aber unbestätigt | Within runtime support boundary, not a blanket product qualification |
 | Windows 10 editions/releases still supported by .NET 10 | Nicht getestet | Check exact edition/lifecycle against upstream matrix; no generic Windows 10 claim |
-| Current Edge/Chrome/Firefox and other Safari/iPadOS combinations | Nicht getestet | No per-version qualification; earlier unspecified iPad success is not a complete Safari matrix |
+| Current desktop and mobile browser/operating-system combinations | Nicht getestet | No per-version qualification; earlier access on one tablet does not qualify other devices or browsers |
 | Windows ARM emulation | Nicht getestet | No native ARM publish and no emulation claim |
 | Native Linux/macOS manager, Windows 7/8 | Nicht unterstützt | No supported product package/qualification for these targets |
 | Internet-facing host/port forwarding | Nicht unterstützt | Deliberately outside the trusted-home-network security model |

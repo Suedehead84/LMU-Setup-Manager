@@ -34,7 +34,7 @@ Verwalte verschiedene Versionen, ergänze persönliche Notizen, markiere Favorit
 
 ### 📱 Direkt neben deinem Rig nutzbar
 
-Öffne den Manager auf deinem iPad oder einem anderen Gerät im Heimnetz. Aktiviere dafür den Heimnetzzugriff in der Windows-App, gib dein vertrauenswürdiges Netzwerk frei und verbinde dein Gerät über eine einmalige QR-Einladung.
+Öffne den Manager auf deinem Tablet, Smartphone oder einem anderen Gerät im Heimnetz. Aktiviere dafür den Heimnetzzugriff in der Windows-App, gib dein vertrauenswürdiges Netzwerk frei und verbinde dein Gerät über eine einmalige QR-Einladung.
 
 ### 💾 Lokal, kostenlos und ohne Benutzerkonto
 
@@ -49,7 +49,7 @@ Du kannst deine Bibliothek auch ohne laufendes Spiel durchsehen und verwalten.
 
 ## Screenshots
 
-*Hier folgen Screenshots der Setup-Bibliothek, der Live-Einstellungen und der iPad-Ansicht.*
+*Hier folgen Screenshots der Setup-Bibliothek, der Live-Einstellungen und der mobilen Ansicht.*
 
 ## Installation
 
@@ -64,7 +64,7 @@ Die benötigte Laufzeit ist im ZIP enthalten; eine separate Laufzeit- oder SDK-I
 
 Mehr dazu: [Installationsanleitung](docs/INSTALLATION.de.md).
 
-## iPad und Sicherheit im Heimnetz
+## Mobiler Zugriff und Sicherheit im Heimnetz
 
 Der Heimnetzzugriff ist freiwillig und zunächst ausgeschaltet. **Die Verbindung nutzt unverschlüsseltes HTTP.** Verwende sie ausschließlich mit vertrauenswürdigen Geräten in deinem vertrauenswürdigen Heimnetz. Gib den Manager nicht im Internet frei und richte keine Portweiterleitung am Router ein. Halte QR-Codes und Einladungslinks zum Verbinden deiner Geräte privat.
 
