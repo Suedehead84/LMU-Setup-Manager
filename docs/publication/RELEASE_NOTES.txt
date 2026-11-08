@@ -10,7 +10,7 @@ The sanitized build-input snapshot excludes private Git history, SDK headers and
 
 ## Exact asset provenance
 
-The attached Windows ZIP, vetted source ZIP and SHA256SUMS.txt are byte-for-byte the sanitized 2026-11-07 review assets. Their historical README/release text and PUBLICATION-HOLD.txt describe the preparation state; this public release records the owner's subsequent explicit publication approval. The marker adds no restriction to MIT rights. The source ZIP is the exact input of the vetted build; the repository tag adds documentation-only publication/security updates. No application, test, dependency, build-script or artwork files changed. GitHub's automatically generated source archives include those documentation updates.
+The attached Windows ZIP, vetted source ZIP and SHA256SUMS.txt are byte-for-byte the sanitized 2026-11-07 review assets. Their historical README/release text and PUBLICATION-HOLD.txt describe the preparation state; this public release records the owner's subsequent explicit publication approval. The marker adds no restriction to MIT rights. The source ZIP is the exact input of the vetted build; the repository tag adds publication/security documentation updates and two packaging allowlists extended to include SECURITY.md. No application, test, dependency, compilation or artwork files changed. GitHub's automatically generated source archives include those documentation updates.
 
 Windows ZIP SHA-256: 09CF898ECFE0D4E6741A5DA365E7DB2B7A9026A777922DA51ED9BFCE14DA33D5
 
